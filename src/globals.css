@@ -37,7 +37,8 @@
 
     --radius: 0.5rem;
 
-    --nav-header-height: 2.625rem;
+    --header-height: 2.625rem;
+    --navbar-height: 3.75rem;
   }
 
   .dark {

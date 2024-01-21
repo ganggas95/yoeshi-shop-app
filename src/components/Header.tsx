@@ -1,13 +1,13 @@
 import { inter } from "@/styles/fonts";
-import { ShoppingCartIcon, UserIcon } from "@heroicons/react/20/solid";
 import clsx from "clsx";
+import { ShoppingCartIcon, UserIcon } from "lucide-react";
 import HeaderItem from "./HeaderItem";
 
 export default function Header() {
   return (
     <header
       className={clsx([
-        "w-full h-nav-header relative flex justify-end items-center px-40 border-b border-gray-200",
+        "w-full h-header relative flex justify-end items-center px-40 border-b border-gray-200",
         inter.className,
       ])}
     >

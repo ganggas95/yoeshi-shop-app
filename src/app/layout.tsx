@@ -1,8 +1,9 @@
 import Header from "@/components/Header";
+import Navbar from "@/components/Navbar";
 import { poppins } from "@/styles/fonts";
 import clsx from "clsx";
 import type { Metadata } from "next";
-import "./globals.css";
+import "../globals.css";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,11 +16,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={clsx([poppins.className])}>
-        <Header></Header>
-        {children}
-      </body>
-    </html>
+      <html lang="en">
+        <body className={clsx([poppins.className])}>
+          <Header />
+          <Navbar />
+          {children}
+        </body>
+      </html>
   );
 }

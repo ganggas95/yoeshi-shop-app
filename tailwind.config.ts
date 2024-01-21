@@ -54,7 +54,8 @@ const config = {
         },
       },
       height: {
-        'nav-header': 'var(--nav-header-height)'
+        'header': 'var(--header-height)',
+        'navbar': 'var(--navbar-height)'
       },
       borderRadius: {
         lg: "var(--radius)",
